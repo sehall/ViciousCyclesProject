@@ -1,0 +1,223 @@
+header {
+    margin: auto;
+    padding-top: 30px;
+}
+
+a:link {
+
+    color: #ff9933;
+    text-decoration: none;
+}
+
+a:hover {
+
+    text-decoration: none;
+    color: ivory;
+}
+
+a:active {
+
+    text-decoration: none;
+    color: ivory;
+}
+
+a:visited{
+
+    color: #ff9933;
+    text-decoration: none;
+}
+
+.cart {
+    float: right;
+    width: 2%;
+    height: auto;
+}
+
+.responsive {
+
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.social {
+
+    width: 40px;
+    height: auto;
+    float: right;
+    margin-top: 10px;
+    padding-right: 5px;
+}
+
+.utility {
+
+    text-align: right;
+    font-family: arial black, sans-serif;
+    font-size: 0.8vw;
+    color: ivory;
+    padding-bottom: 1%;
+    margin-bottom: 0%;
+}
+
+#mobilenav {
+    display: none;
+}
+
+nav {
+
+    margin-top: 1%;
+    background-color: white;
+    width: 100%;
+}
+
+ul {
+    
+    padding: .2% 0%;
+    margin: 0% 0% 0% 5%;
+    list-style-type: none;
+    
+}
+
+li {
+
+    text-align: left;
+    font-family: arial black, sans-serif;
+    font-size: 1vw;
+    color: #ff9933;
+    display: inline;
+    margin: 0% 2%;
+    
+}
+
+body {
+
+    background-color: #ffcc80;
+    max-width: 90%;
+    margin: auto;
+    
+}
+
+.bikes {
+
+    width: 40%;
+    height: auto;
+    float: left;
+    padding-right: 15px;
+}
+
+#intro {
+
+    text-align: justify;
+    font-size: larger;
+    
+}
+
+.white {
+
+    color: white;
+    font-family: arial black, sans-serif;
+}
+
+.construction {
+
+    width: 1500px;
+    height: auto;
+}
+
+footer {
+
+    padding-left: 0.5%;
+    background-color: white;
+    bottom: 0;
+}
+
+.productimg {
+
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 30%;
+    height: auto;
+}
+
+@media only screen and (max-width: 1000px) {
+
+header {
+    max-width: 100%;
+}
+
+.responsive {
+
+    width: 100%;
+    height: auto;
+}
+
+.utility {
+
+    text-align: left;
+    font-family: arial black, sans-serif;
+    font-size: 4vw;
+    color: ivory;
+    padding-bottom: 0%;
+    margin: 7% 0% 0% 0%;
+
+}
+
+.cart {
+    float: clear;
+    width: 8vw;
+    height: auto;
+    margin-top: 1%;
+}
+
+nav {
+
+    display: none;
+}
+
+#mobilenav, ul {
+
+    display: none;
+
+}
+
+.smaller {
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 60vw;
+    height: auto;
+}
+
+h1 {
+
+    font-size: 5vw;
+    text-align: center;
+}
+
+.bikes {
+    display: none;
+}
+
+.social {
+
+    width: 8vw;
+    height: auto;
+}
+
+.productimg {
+
+    width: 90vw;
+    height: auto;
+}
+
+footer {
+
+    padding-left: 0.5%;
+    background-color: gray;
+
+}
+
+
+}
