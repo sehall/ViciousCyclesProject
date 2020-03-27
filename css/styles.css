@@ -1,0 +1,248 @@
+header {
+    margin: auto;
+    padding-top: 30px;
+}
+
+a:link {
+
+    color: #ff9933;
+    text-decoration: none;
+}
+
+a:hover {
+
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+
+    color: #ff9933;
+    text-decoration: none;
+}
+
+.cart {
+    float: right;
+    width: 2%;
+    height: auto;
+}
+
+.responsive {
+
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.social {
+
+    width: 40px;
+    height: auto;
+    float: right;
+    margin-top: 10px;
+    padding-right: 5px;
+}
+
+.utility {
+
+    text-align: right;
+    font-family: arial black, sans-serif;
+    font-size: 0.8vw;
+    color: ivory;
+    padding-bottom: 1%;
+    margin-bottom: 0%;
+}
+
+#mobilenav {
+    display: none;
+}
+
+nav {
+
+    margin-top: 1%;
+    background-color: white;
+    width: 100%;
+}
+
+ul {
+    
+    padding: .2% 0%;
+    margin: 0% 0% 0% 5%;
+    list-style-type: none;
+    
+}
+
+li {
+
+    text-align: left;
+    font-family: arial black, sans-serif;
+    font-size: 1vw;
+    color: #ff9933;
+    display: inline;
+    margin: 0% 2%;
+    
+}
+
+body {
+
+    background-color: #E7FBFB;
+    max-width: 90%;
+    margin: auto;
+    
+}
+
+.github2 {
+
+    color: #010B5B;
+    text-align: center;
+    font-size: 4em;
+}
+
+.bikes {
+
+    width: 40%;
+    height: auto;
+    float: left;
+    padding-right: 15px;
+}
+
+#intro {
+
+    text-align: justify;
+    font-size: larger;
+    
+}
+
+.white {
+
+    color: 010B5B;
+    font-family: arial black, sans-serif;
+}
+
+.construction {
+
+    width: 1500px;
+    height: auto;
+}
+
+footer {
+
+    padding-left: 0.5%;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    min-width: 90%;
+}
+
+#products, img {
+
+    width: 30%;
+    height: auto;
+}
+@media only screen and (max-width: 1000px) {
+
+#main {
+
+    margin-bottom: 100px;
+    clear: both;
+}
+header {
+    max-width: 100%;
+}
+
+.responsive {
+
+    width: 100%;
+    height: auto;
+}
+
+.utility {
+
+    text-align: left;
+    font-family: arial black, sans-serif;
+    font-size: 4vw;
+    color: ivory;
+    padding-bottom: 0%;
+    margin: 7% 0% 0% 0%;
+
+}
+
+.cart {
+    float: clear;
+    width: 8vw;
+    height: auto;
+    margin-top: 1%;
+}
+
+nav {
+
+    display: none;
+}
+
+#mobilenav, ul {
+
+    display: block;
+    margin-top: 30px;
+    margin-left: 70px;
+
+}
+
+.smaller {
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 60vw;
+    height: auto;
+}
+
+h1 {
+
+    font-size: 5vw;
+    text-align: center;
+}
+
+#intro {
+
+    font-size: 2em;
+}
+
+.bikes {
+    display: none;
+}
+
+.social {
+
+    width: 8vw;
+    height: auto;
+}
+
+footer {
+
+    padding-left: 0.5%;
+    font-size: large;
+    background-color: gray;
+
+}
+
+#contactinfo {
+
+    font-size: 6vw;
+}
+
+iframe {
+
+    width: 100%;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+
+}
